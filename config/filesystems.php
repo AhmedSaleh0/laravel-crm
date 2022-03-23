@@ -66,7 +66,8 @@ return [
     */
 
     'links' => [
-        public_path('storage') => storage_path('app/public'),
+        // public_path('storage') => storage_path('app/public'),
+        '/home4/vestate1/public_html/storage' => storage_path('app/public'),
     ],
 
 ];
